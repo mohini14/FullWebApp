@@ -25,7 +25,6 @@
 - (void)didReceiveMemoryWarning
 {
 	[super didReceiveMemoryWarning];
-	// Dispose of any resources that can be recreated.
 }
 
 #pragma mark- Initial vc setup
@@ -43,8 +42,8 @@
 }
 
 #pragma mark- Actions On VC
--(IBAction)refreshController:(id)sender{
-	
+-(IBAction)refreshController:(id)sender
+{
 	[self openWebPage];
 }
 @end
